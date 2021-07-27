@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const ItemCollection_1 = require("./ItemCollection");
+console.clear();
+let col1 = new ItemCollection_1.ItemCollection();
+col1.addtodo("Purchase CPU");
+col1.addtodo("Purchase GPU");
+col1.addtodo("Puchase RAM");
+col1.taskdone(1);
+col1.printdetails();
